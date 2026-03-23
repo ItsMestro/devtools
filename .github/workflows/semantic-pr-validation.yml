@@ -14,3 +14,4 @@ jobs:
     uses: ItsMestro/devtools/.github/workflows/shared-semantic-pr-validation.yml@master
     permissions:
       pull-requests: read
+    secrets: inherit
