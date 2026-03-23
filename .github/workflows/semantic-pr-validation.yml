@@ -11,6 +11,6 @@ on:
 jobs:
   validate:
     name: Validate PR title
-    uses: ItsMestro/devtools/.github/workflows/shared-semantic-pr-validation.yml@main
+    uses: ItsMestro/devtools/.github/workflows/shared-semantic-pr-validation.yml@master
     permissions:
       pull-requests: read
