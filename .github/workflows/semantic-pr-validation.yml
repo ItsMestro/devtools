@@ -1,0 +1,16 @@
+name: Semantic PR Validation
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - edited
+      - synchronize
+
+jobs:
+  validate:
+    name: Validate PR title
+    uses: ItsMestro/devtools/.github/workflows/shared-semantic-pr-validation.yml@main
+    permissions:
+      pull-requests: read
