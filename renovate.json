@@ -1,10 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>ItsMestro/.github:renovate-config"],
-  "packageRules": [
-    {
-      "matchPackageNames": ["ItsMestro/devtools"],
-      "enabled": false
-    }
-  ]
+  "extends": ["local>ItsMestro/.github:renovate-config"]
 }
